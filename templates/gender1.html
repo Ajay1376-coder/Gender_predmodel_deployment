@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Gender Predictor</title>
+        
+    </head>
+
+    <body>
+
+       
+    	<div class="container">
+            <h2 class='container-heading'><span class="heading_font">Gender Predictor</span></h2>
+            <div class='description'>
+    			<p>A Machine Learning Web App, Built with Flask, Deployed using Heroku.</p>
+    		</div>
+    	</div>
+
+   
+    	<div class="ml-container">
+    		<form action="/sub" method="POST">
+             <label>Math Score</label>   
+            <input class="form-input" type="text" name="Mathscore"><br>
+            <label>Reading Score</label>   
+            <input class="form-input" type="text" name="Readingscore"><br>
+            <label>Writing Score</label>   
+             <input class="form-input" type="text" name="writingscore"><br>
+        	 <input type="submit" class="my-cta-button" value="Predict">
+            </form>
+    	</div>
+         
+
+    </body>
+</html>
