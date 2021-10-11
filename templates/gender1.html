@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Gender-Predictor app</title>
+	
+</head>
+<body>
+<h1>Machine Learning App Created using Flask and Deployed on Heroku</h1>
+<h3>Gender-Prediction Based on Marks Scored in an Exam</h3>
+	
+
+<div class="ml-container">
+    		<form action="/sub" method="POST">
+    		<h2>Enter the following Details</h2>
+             <label>Math Score</label>   
+            <input class="form-input" type="text" name="Mathscore"><br>
+            <label>Reading Score</label>   
+            <input class="form-input" type="text" name="Readingscore"><br>
+            <label>Writing Score</label>   
+             <input class="form-input" type="text" name="writingscore"><br>
+        	 <input type="submit" class="my-cta-button" value="Predict">
+            </form>
+    	</div>
+
+ <style>
+
+div{
+text-align: center;
+padding: 5px;
+margin:3px;
+border-color: red;
+}
+
+form{
+	background-color:sandybrown;
+	padding:5px 5px ;
+}
+input{
+	padding: 5px;
+	margin: 5px;
+}
+h1{
+	color: coral;
+}
+h2{
+	color:red;}
+h3{
+	color:green;
+}
+.my-cta-button{
+	padding: 7px;
+	text-align: center;
+	margin: 3px;
+	color: yellow;
+	background-color: grey;
+}
+
+ </style>  
+</body>
+</html>
